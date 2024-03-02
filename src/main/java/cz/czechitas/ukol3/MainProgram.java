@@ -10,7 +10,6 @@ import cz.czechitas.ukol3.model.Disc;
 public class MainProgram {
 
     public static void main(String... args) {
-        //TODO tady bude váš kód - vytvoření instance třídy Pocitac, zapnutí, vpynutí, výpis hodnot.
         Computer myPC = new Computer();
         System.out.println(myPC.toString());
         myPC.turnOn();
